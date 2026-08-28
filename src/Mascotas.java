@@ -11,16 +11,41 @@ public class Mascotas {
         this.raza = raza;
 
     }
+
     // Getters y Setters
-    public String getNombre() { return nombre; }
-    public void setNombre(String nombre) { this.nombre = nombre; }
+    public String getNombre() {
+        return nombre;
+    }
 
-    public int getEdad() { return edad; }
-    public void setEdad(int edad) { this.edad = edad; }
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 
-    public String getPeso() { return peso; }
-    public void setPeso(String peso) { this.peso = peso; }
+    public int getEdad() {
+        return edad;
+    }
 
-    public String getRaza() { return raza; }
-    public void setRaza(String raza) { this.raza = raza; }
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getPeso() {
+        return peso;
+    }
+
+    public void setPeso(String peso) {
+        this.peso = peso;
+    }
+
+    public String getRaza() {
+        return raza;
+    }
+
+    public void setRaza(String raza) {
+        this.raza = raza;
+    }
+
+    public void mostrarInfo() {
+        System.out.println("Mascota: " + nombre + " | Edad: " + edad + " años | Peso: " + peso + " | Raza: " + raza);
+    }
 }
