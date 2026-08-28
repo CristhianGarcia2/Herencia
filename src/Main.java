@@ -3,5 +3,13 @@ public class Main {
         perro miPerro = new perro("Firulais", 4, "15kg", "Labrador", "Grande");
         gato miGato = new gato("Michi", 2, "4kg", "Siames", "Blanco y Gris");
         ave miAve = new ave("Lucas", 1, "300g", "Canario", true);
+        miPerro.mostrarInfo();
+        miPerro.ladrar();
+
+        miGato.mostrarInfo();
+        miGato.maullar();
+
+        miAve.mostrarInfo();
+        miAve.cantar();
     }
 }
